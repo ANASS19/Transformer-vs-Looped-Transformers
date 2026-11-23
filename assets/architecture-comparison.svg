@@ -20,7 +20,7 @@
   <path d="M300 174V196" stroke="#6ee7f3" stroke-width="2" marker-end="url(#arrowC)"/>
   <rect x="174" y="201" width="252" height="58" rx="11" fill="#15354a" stroke="#48d8eb" stroke-width="1.5"/>
   <text x="300" y="225" fill="#f3fdff" font-size="17" font-weight="700">Transformer Block 1</text>
-  <text x="300" y="245" fill="#73e7f3" font-size="13">独立 weights · θ₁</text>
+  <text x="300" y="245" fill="#73e7f3" font-size="13">Independent weights · θ₁</text>
   <path d="M300 259V278" stroke="#6ee7f3" stroke-width="2" marker-end="url(#arrowC)"/>
   <rect x="174" y="283" width="252" height="58" rx="11" fill="#15354a" stroke="#48d8eb" stroke-width="1.5"/>
   <text x="300" y="307" fill="#f3fdff" font-size="17" font-weight="700">Transformer Block 2</text>
