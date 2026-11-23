@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Standard vs Looped Transformer</title>
+<desc id="desc">A dark navy and cyan research banner showing a Transformer block being reused in a loop.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080f20"/><stop offset=".55" stop-color="#111c38"/><stop offset="1" stop-color="#0b2638"/></linearGradient>
+  <linearGradient id="edge"><stop stop-color="#55e9f5"/><stop offset="1" stop-color="#9b7bff"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#6782a4" stroke-opacity=".16" stroke-width=".8"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+<path d="M0 2H1200" stroke="url(#edge)" stroke-width="3"/>
+<path d="M0 298H1200" stroke="url(#edge)" stroke-opacity=".55"/>
+<g transform="translate(785 22)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M105 55 C250 -5 365 55 365 130 C365 205 250 262 105 205" stroke="#55e9f5" stroke-opacity=".12" stroke-width="22" filter="url(#glow)"/>
+  <path d="M105 55 C250 -5 365 55 365 130 C365 205 250 262 105 205" stroke="url(#edge)" stroke-width="3"/>
+  <path d="M105 205 C38 177 20 102 65 67" stroke="#9b7bff" stroke-width="2" stroke-dasharray="6 8"/>
+  <path d="M52 73L65 67L67 83" stroke="#9b7bff" stroke-width="2"/>
+  <rect x="142" y="91" width="188" height="82" rx="14" fill="#102c43" stroke="#55e9f5" stroke-width="2"/>
+  <rect x="154" y="103" width="164" height="58" rx="9" fill="#173b50" stroke="#8beefa" stroke-opacity=".4"/>
+  <text x="236" y="127" fill="#effcff" font-family="Arial,sans-serif" font-size="19" font-weight="700" text-anchor="middle">TRANSFORMER</text>
+  <text x="236" y="148" fill="#6ee7f3" font-family="Arial,sans-serif" font-size="13" text-anchor="middle">SHARED WEIGHTS θ</text>
+  <g fill="#55e9f5"><circle cx="105" cy="55" r="7"/><circle cx="365" cy="130" r="7"/><circle cx="105" cy="205" r="7"/></g>
+  <g fill="#aa98ff"><circle cx="65" cy="67" r="5"/></g>
+  <text x="236" y="35" fill="#b8c9df" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" letter-spacing="2">REUSE · REFINE · REPEAT</text>
+  <text x="236" y="237" fill="#b8c9df" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">4 COMPUTATIONAL PASSES</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+  <text x="62" y="66" fill="#6ee7f3" font-size="14" letter-spacing="4">A SMALL-SCALE ARCHITECTURE STUDY</text>
+  <text x="58" y="128" fill="#f1f7ff" font-size="43" font-weight="700">Transformer</text>
+  <text x="58" y="178" fill="#f1f7ff" font-size="43" font-weight="700">vs. Looped Transformer</text>
+  <text x="62" y="220" fill="#c1d1e5" font-size="18">Parameter sharing · Recurrent depth · Language modeling</text>
+  <rect x="62" y="246" width="350" height="31" rx="15" fill="#102c43" stroke="#397f9b"/>
+  <text x="79" y="267" fill="#c9f8ff" font-size="13" letter-spacing="1.2">PYTORCH  ·  TINY SHAKESPEARE  ·  JUPYTER</text>
+</g>
+</svg>
