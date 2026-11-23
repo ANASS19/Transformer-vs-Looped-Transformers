@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Experiment workflow</title>
+<desc id="desc">Tiny Shakespeare is tokenized, split into train and validation data, used to train both architectures, then evaluated using losses, perplexity, parameter count, speed, memory and generation.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1326"/><stop offset="1" stop-color="#102b3d"/></linearGradient>
+ <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="#65dff0"/></marker>
+</defs>
+<rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+ <rect x="34" y="95" width="180" height="105" rx="13" fill="#14283d" stroke="#55ddeb"/>
+ <text x="124" y="132" fill="#f2fbff" font-size="17" font-weight="700">Tiny Shakespeare</text>
+ <text x="124" y="159" fill="#a9c6da" font-size="13">Character-level text</text>
+ <text x="124" y="180" fill="#6ee7f3" font-size="12">Download once</text>
+ <path d="M214 148H252" stroke="#65dff0" stroke-width="2" marker-end="url(#a)"/>
+ <rect x="260" y="95" width="180" height="105" rx="13" fill="#14283d" stroke="#55ddeb"/>
+ <text x="350" y="132" fill="#f2fbff" font-size="17" font-weight="700">Prepare data</text>
+ <text x="350" y="159" fill="#a9c6da" font-size="13">Vocabulary + split</text>
+ <text x="350" y="180" fill="#6ee7f3" font-size="12">Shared batches</text>
+ <path d="M440 148H478" stroke="#65dff0" stroke-width="2" marker-end="url(#a)"/>
+ <rect x="486" y="48" width="188" height="80" rx="12" fill="#15354a" stroke="#48d8eb"/>
+ <text x="580" y="80" fill="#f2fbff" font-size="16" font-weight="700">Standard model</text>
+ <text x="580" y="105" fill="#73e7f3" font-size="13">4 independent blocks</text>
+ <rect x="486" y="170" width="188" height="80" rx="12" fill="#211e43" stroke="#a18bff"/>
+ <text x="580" y="202" fill="#f8f5ff" font-size="16" font-weight="700">Looped model</text>
+ <text x="580" y="227" fill="#c5b7ff" font-size="13">1 shared block × 4</text>
+ <path d="M674 88H718V148H746" fill="none" stroke="#65dff0" stroke-width="2" marker-end="url(#a)"/>
+ <path d="M674 210H718V148" fill="none" stroke="#b4a1ff" stroke-width="2"/>
+ <rect x="754" y="95" width="190" height="105" rx="13" fill="#14283d" stroke="#6487a6"/>
+ <text x="849" y="132" fill="#f2fbff" font-size="17" font-weight="700">Evaluate</text>
+ <text x="849" y="159" fill="#a9c6da" font-size="13">Loss · perplexity · speed</text>
+ <text x="849" y="180" fill="#a9c6da" font-size="13">Memory · parameters</text>
+ <path d="M944 148H982" stroke="#65dff0" stroke-width="2" marker-end="url(#a)"/>
+ <rect x="990" y="95" width="176" height="105" rx="13" fill="#14283d" stroke="#55ddeb"/>
+ <text x="1078" y="132" fill="#f2fbff" font-size="17" font-weight="700">Inspect</text>
+ <text x="1078" y="159" fill="#a9c6da" font-size="13">Learning curves</text>
+ <text x="1078" y="180" fill="#6ee7f3" font-size="13">Custom generation</text>
+</g>
+</svg>
